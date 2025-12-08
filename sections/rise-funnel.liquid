@@ -1,0 +1,274 @@
+{% comment %}
+  RISE FUNNEL – VERSION ULTRA PREMIUM (STYLE 1 BLACK GREEN)
+  Hero + Logos + Benefits + UGC + Reviews + Product Block
+{% endcomment %}
+
+<section class="rise-funnel">
+
+  {%- style -%}
+    .rise-funnel {
+      background: #05060A;
+      padding: 60px 0 80px;
+      color: white;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', system-ui, sans-serif;
+    }
+
+    .rise-wrap {
+      max-width: 1250px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* TRUST BADGE TOP */
+    .rise-trust {
+      text-align: center;
+      font-size: 13px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: 8px 14px;
+      display: inline-block;
+      margin: 0 auto 30px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,0.04);
+    }
+
+    /* HERO GRID */
+    .rise-hero {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 40px;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .rise-kicker {
+      color: #22C55E;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: .18em;
+      margin-bottom: 10px;
+    }
+
+    .rise-title {
+      font-size: clamp(34px, 4vw, 46px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+
+    .rise-sub {
+      color: #d1d5db;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .rise-bullets {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .rise-bullets li {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 8px;
+      font-size: 15px;
+      color: #e5e7eb;
+    }
+
+    .rise-bullets li::before {
+      content: "✔";
+      color: #22C55E;
+      font-weight: 600;
+      margin-top: 1px;
+    }
+
+    .rise-cta-row {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .rise-btn {
+      background: #22C55E;
+      color: #05060A;
+      padding: 14px 28px;
+      border-radius: 999px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: .2s;
+    }
+    .rise-btn:hover { background: #16A34A; }
+
+    .rise-hero-img img {
+      width: 100%;
+      border-radius: 22px;
+      border: 1px solid rgba(255,255,255,.12);
+      background: radial-gradient(circle at top left,#22c55e33,#05060A);
+    }
+
+    /* LOGOS */
+    .logos-wrap {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .logos-title {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      color: #9ca3af;
+      margin-bottom: 14px;
+    }
+    .logos-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      opacity: .85;
+    }
+    .logos-grid img {
+      max-height: 26px;
+      filter: grayscale(1) brightness(1.2);
+    }
+
+    /* BENEFITS */
+    .benefit-box {
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 18px;
+      padding: 26px;
+      background: rgba(255,255,255,0.02);
+      backdrop-filter: blur(8px);
+    }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 24px;
+      margin: 40px 0 50px;
+    }
+    .benefit-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .benefit-text {
+      font-size: 14px;
+      color: #d1d5db;
+    }
+
+    /* UGC */
+    .ugc-strip {
+      display: flex;
+      overflow-x: auto;
+      gap: 14px;
+      padding-bottom: 10px;
+    }
+    .ugc-card {
+      min-width: 190px;
+      border: 1px solid rgba(255,255,255,.1);
+      padding: 10px;
+      border-radius: 18px;
+      background: rgba(255,255,255,0.03);
+    }
+    .ugc-thumb {
+      margin-bottom: 8px;
+      border-radius: 14px;
+      overflow: hidden;
+      position: relative;
+    }
+    .ugc-thumb img {
+      width: 100%;
+      display: block;
+    }
+    .ugc-play {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(to bottom,transparent,rgba(0,0,0,.3));
+    }
+    .ugc-play-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      border:1px solid rgba(255,255,255,.4);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+
+    /* REVIEWS */
+    .review-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 18px;
+      margin: 40px 0;
+    }
+    .review-card {
+      border:1px solid rgba(255,255,255,.12);
+      padding:14px;
+      border-radius:16px;
+      background:rgba(255,255,255,0.03);
+    }
+    .review-stars {
+      color:#FBBF24;
+      font-size:12px;
+      margin-bottom:4px;
+    }
+    .review-name {
+      font-weight:600;
+      margin-bottom:4px;
+    }
+    .review-text {
+      color:#d1d5db;
+      font-size:13px;
+    }
+
+    /* PRODUCT BLOCK */
+    .product-box {
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:20px;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:30px;
+      padding:32px;
+      margin-top:40px;
+      background: radial-gradient(circle at top,#22c55e22,#05060A);
+    }
+
+    .product-title {
+      font-size:20px;
+      font-weight:700;
+      margin-bottom:8px;
+    }
+    .product-price {
+      font-size:18px;
+      color:#22C55E;
+      font-weight:600;
+      margin-bottom:10px;
+    }
+    .product-note {
+      font-size:14px;
+      color:#d1d5db;
+      margin-bottom:16px;
+    }
+    .product-img img {
+      width:100%;
+      border-radius:20px;
+      border:1px solid rgba(255,255,255,.12);
+    }
+
+    @media(max-width: 900px){
+      .rise-hero { grid-template-columns: 1fr; }
+      .product-box { grid-template-columns:1fr; }
+      .benefits-grid { grid-template-columns:1fr 1fr; }
+      .review-grid { grid-template-columns:1fr 1fr; }
+    }
+    @media(max-width: 600px){
+      .benefits-grid { grid-template-columns:1fr; }
+      .review-grid { grid-template-columns:1fr; }
+    }
+  {%- endstyle -%}
