@@ -16,11 +16,11 @@
     "logo_width": 200,
     "mobile_logo_width": 130,
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#6d388b",
+    "colors_accent_1": "#ff7a00",
     "gradient_accent_1": "",
-    "colors_accent_2": "#6d388b",
+    "colors_accent_2": "#ff9e57",
     "gradient_accent_2": "linear-gradient(54deg, rgba(109, 56, 139, 1) 14%, rgba(105, 14, 14, 1) 85%)",
-    "colors_text": "#121212",
+    "colors_text": "#000000",
     "colors_outline_button_labels": "#6d388b",
     "colors_background_1": "#ffffff",
     "gradient_background_1": "",
@@ -679,17 +679,17 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ":root{--bg:#0F0E17;--bg2:#1A1A23;--cta:#FF8906;--cta2:#F25F4C;--text:#fff;--muted:#A7A9BE;}",
-      "body{background:var(--bg)!important;color:var(--text)!important;}",
-      ".announcement, .announcement-bar{background:var(--bg)!important;color:var(--cta)!important;}",
-      ".announcement a{color:var(--cta)!important;}",
-      "button, .btn, .button, .shopify-payment-button__button{background:var(--cta)!important;color:var(--bg)!important;border-radius:999px!important;border:none!important;font-weight:600!important;}",
-      "button:hover, .btn:hover, .button:hover{background:var(--cta2)!important;color:var(--bg)!important;}",
-      "p, .subheading, .subtitle{color:var(--muted)!important;}",
-      ".card, .review-card, .comparison-card{background:var(--bg2)!important;border-radius:16px!important;border:1px solid rgba(255,255,255,.08)!important;}",
-      "a:not(.btn):not(button):hover{color:var(--cta2)!important;}",
-      "input, textarea, select{background:var(--bg2)!important;border-radius:10px!important;border:1px solid rgba(255,255,255,.12)!important;color:var(--text)!important;}",
-      "footer{background:#05050A!important;color:var(--muted)!important;}"
+      ":root {--bg: #0f0e17; --bg2: #1a1a23; --cta: #ff8906; --cta2: #f25f4c; --text: #fff; --muted: #a7a9be;}",
+      "body {background: var(--bg) !important; color: var(--text) !important;}",
+      ".announcement,.announcement-bar {background: var(--bg) !important; color: var(--cta) !important;}",
+      ".announcement a {color: var(--cta) !important;}",
+      "button,.btn,.button,.shopify-payment-button__button {background: var(--cta) !important; color: var(--bg) !important; border-radius: 999px !important; border: none !important; font-weight: 600 !important;}",
+      "button:hover,.btn:hover,.button:hover {background: var(--cta2) !important; color: var(--bg) !important;}",
+      "p,.subheading,.subtitle {color: var(--muted) !important;}",
+      ".card,.review-card,.comparison-card {background: var(--bg2) !important; border-radius: 16px !important; border: 1px solid rgba(255, 255, 255, 0.08) !important;}",
+      "a:not(.btn):not(button):hover {color: var(--cta2) !important;}",
+      "input,textarea,select {background: var(--bg2) !important; border-radius: 10px !important; border: 1px solid rgba(255, 255, 255, 0.12) !important; color: var(--text) !important;}",
+      "footer {background: #05050a !important; color: var(--muted) !important;}"
     ]
   }
 }
