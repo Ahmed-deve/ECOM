@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image_overlay_opacity": 0,
-            "heading": "Réveille toi sans reveiller la personne que tu aimes.",
+            "heading": "Réveille-toi en silence, sans réveiller personne.",
             "title_highlight_color": "#121212",
             "heading_size": "h1",
             "subheading": "Un bracelet à vibrations puissantes pour dormeurs profonds, couples et personnes sensibles au bruit.",
@@ -86,6 +86,71 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "logo_list_hD8XzA": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_TBT8tN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "link": "https://www.vogue.fr/",
+            "target_blank": false
+          }
+        },
+        "logo_EJ8K78": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/marie_claire.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_46widT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/elle.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_tRwLjR": {
+          "type": "logo",
+          "settings": {
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_TBT8tN",
+        "logo_EJ8K78",
+        "logo_46widT",
+        "logo_tRwLjR"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "VU SUR",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "gray_logos": false,
+        "color_scheme": "background-1",
+        "layout": "vertical",
+        "desktop_logo_height": 50,
+        "columns_mobile": 2,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
+      }
+    },
     "d2d3417b-e92f-428c-b221-5bceffb552be": {
       "type": "comparison-table",
       "blocks": {
@@ -128,35 +193,13 @@
             "others_2": false,
             "others_3": false
           }
-        },
-        "row_a9Qa8J": {
-          "type": "row",
-          "settings": {
-            "benefit": "<strong>Benefit</strong>",
-            "us": true,
-            "others": false,
-            "others_2": false,
-            "others_3": false
-          }
-        },
-        "row_NAEbjV": {
-          "type": "row",
-          "settings": {
-            "benefit": "<strong>Benefit</strong>",
-            "us": true,
-            "others": false,
-            "others_2": false,
-            "others_3": false
-          }
         }
       },
       "block_order": [
         "row_im9iHL",
         "row_jR8WtA",
         "row_4VCDrm",
-        "row_frqit4",
-        "row_a9Qa8J",
-        "row_NAEbjV"
+        "row_frqit4"
       ],
       "settings": {
         "display_id": false,
@@ -457,6 +500,7 @@
   },
   "order": [
     "cfca4268-6358-426c-98ab-d292aeef11e5",
+    "logo_list_hD8XzA",
     "d2d3417b-e92f-428c-b221-5bceffb552be",
     "6aa09428-a417-429d-9159-a4e8afd49590",
     "0f1fc9e4-bc4c-4052-9747-62d1f8472caa",
