@@ -183,19 +183,6 @@
             "margin_top": 24,
             "margin_bottom": 24
           }
-        },
-        "view_details_tCJdK7": {
-          "type": "view_details",
-          "settings": {
-            "style": "text",
-            "enable_custom_color": false,
-            "custom_color": "#dd1d1d",
-            "large_font_size": false,
-            "uppercase": false,
-            "display_arrow": true,
-            "margin_top": 15,
-            "margin_bottom": 0
-          }
         }
       },
       "block_order": [
@@ -203,8 +190,7 @@
         "price_8Mn6hJ",
         "variant_picker_wG3dMW",
         "quantity_selector_TawXhB",
-        "buy_buttons_R3EnBm",
-        "view_details_tCJdK7"
+        "buy_buttons_R3EnBm"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
