@@ -9,86 +9,7 @@
  */
 {
   "sections": {
-    "cfca4268-6358-426c-98ab-d292aeef11e5": {
-      "type": "slideshow",
-      "blocks": {
-        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Titel_3_kopie.webp",
-            "image_overlay_opacity": 0,
-            "heading": "Réveille-toi en silence, sans réveiller personne.",
-            "title_highlight_color": "#121212",
-            "heading_size": "h1",
-            "subheading": "Un bracelet à vibrations puissantes pour dormeurs profonds, couples et personnes sensibles au bruit.",
-            "button_label": "Commander Maintenant",
-            "link": "",
-            "button_style_secondary": true,
-            "atc_button_label": "",
-            "atc_product": "rize",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#0a0a0a",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#ffffff",
-            "custom_colors_solid_button_background": "#d4af37",
-            "custom_colors_solid_button_text": "#0a0a0a",
-            "custom_colors_outline_button": "#d4af37"
-          }
-        },
-        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-2": {
-          "type": "slide",
-          "settings": {
-            "image_overlay_opacity": 0,
-            "heading": "Image slide",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "atc_button_label": "",
-            "atc_product": "",
-            "atc_skip_cart": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "color_scheme": "background-1",
-            "transparent_container_color": "white",
-            "text_alignment_mobile": "center",
-            "custom_colors_background": "#ffffff",
-            "custom_gradient_background": "",
-            "custom_colors_text": "#2e2a39",
-            "custom_colors_solid_button_background": "#dd1d1d",
-            "custom_colors_solid_button_text": "#ffffff",
-            "custom_colors_outline_button": "#dd1d1d"
-          }
-        }
-      },
-      "block_order": [
-        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1",
-        "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "visibility": "always-display",
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "desktop_pagination_position": "over",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "mobile_pagination_position": "under",
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner_HTxJzn": {
+    "image_banner_CfnDJ6": {
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -108,6 +29,71 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "logo_list_hD8XzA": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_TBT8tN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vogue.png",
+            "link": "https://www.vogue.fr/",
+            "target_blank": false
+          }
+        },
+        "logo_EJ8K78": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/marie_claire.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_46widT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/elle.png",
+            "link": "",
+            "target_blank": false
+          }
+        },
+        "logo_tRwLjR": {
+          "type": "logo",
+          "settings": {
+            "link": "",
+            "target_blank": false
+          }
+        }
+      },
+      "block_order": [
+        "logo_TBT8tN",
+        "logo_EJ8K78",
+        "logo_46widT",
+        "logo_tRwLjR"
+      ],
+      "name": "Featured on",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "VU SUR",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "gray_logos": false,
+        "color_scheme": "background-1",
+        "layout": "vertical",
+        "desktop_logo_height": 50,
+        "columns_mobile": 2,
+        "mobile_logo_height": 50,
+        "mobile_slider": true,
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_dots": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#121212"
       }
     },
     "collage_cbwXqx": {
@@ -404,8 +390,8 @@
     }
   },
   "order": [
-    "cfca4268-6358-426c-98ab-d292aeef11e5",
-    "image_banner_HTxJzn",
+    "image_banner_CfnDJ6",
+    "logo_list_hD8XzA",
     "collage_cbwXqx",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
