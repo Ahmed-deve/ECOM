@@ -12,6 +12,10 @@
     "featured_product_fMPB7M": {
       "type": "featured-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_UV6bMz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "title_HnnVx9": {
           "type": "title",
           "settings": {
@@ -186,6 +190,7 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_UV6bMz",
         "title_HnnVx9",
         "price_8Mn6hJ",
         "variant_picker_wG3dMW",
@@ -623,6 +628,27 @@
         "custom_contaner_colors_text": "#2e2a39"
       }
     },
+    "176540295115a1a20e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_QwBa7Y": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_QwBa7Y"
+      ],
+      "settings": {
+        "display_id": false,
+        "include_margins": true
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -1018,27 +1044,6 @@
         "padding_top": 36,
         "padding_bottom": 24
       }
-    },
-    "17654026961aef1d54": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_XHzjcg": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_XHzjcg"
-      ],
-      "settings": {
-        "display_id": false,
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -1049,8 +1054,8 @@
     "image_with_text_bdwNc9",
     "image_with_text_n3VXyc",
     "collapsible_content_hLQQTK",
+    "176540295115a1a20e",
     "main",
-    "related-products",
-    "17654026961aef1d54"
+    "related-products"
   ]
 }
