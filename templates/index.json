@@ -37,6 +37,7 @@
         "column_JxPxTr": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/427e10c5-c6b5-44ac-a97b-07aece7fce36_c9358912-62c4-4edd-9e2e-f4b24ac367fa.png",
             "muted_autoplay": true,
             "title": "Column",
             "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -47,6 +48,7 @@
         "column_ewTfRG": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/56b949e9-a611-464a-a24a-8eb231fc47b9_17d8528e-fc2d-43b3-954f-b9006eee8f17.png",
             "muted_autoplay": true,
             "title": "Column",
             "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -75,7 +77,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "Multicolumn",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "button_label": "",
         "button_link": "",
@@ -125,16 +127,16 @@
         "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_heading": "#222126",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
     "logo_list_hD8XzA": {
