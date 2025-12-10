@@ -307,7 +307,7 @@
         "mobile_container_padding_y": 24,
         "mobile_container_padding_x": 24,
         "type": "slide",
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_speed": 5,
         "arrows_color_scheme": "inverse",
         "transparent_arrows": true,
