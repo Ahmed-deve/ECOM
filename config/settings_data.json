@@ -696,7 +696,8 @@
       ".card,.review-card,.comparison-card {background: var(--bg2) !important; border-radius: 16px !important; border: 1px solid rgba(255, 255, 255, 0.08) !important;}",
       "a:not(.btn):not(button):hover {color: var(--cta2) !important;}",
       "input,textarea,select {background: var(--bg2) !important; border-radius: 10px !important; border: 1px solid rgba(255, 255, 255, 0.12) !important; color: var(--text) !important;}",
-      "footer {background: #05050a !important; color: var(--muted) !important;}"
+      "footer {background: #05050a !important; color: var(--muted) !important;}",
+      "@media(max-width: 768px) {.flickity-button, .flickity-prev-next-button, .slider-button, .carousel__button--prev, .carousel__button--next {display: none !important; }}"
     ]
   }
 }
