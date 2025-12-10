@@ -26,6 +26,13 @@
             "margin_bottom": 15
           }
         },
+        "description_XpzNBP": {
+          "type": "description",
+          "settings": {
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
         "price_8Mn6hJ": {
           "type": "price",
           "settings": {
@@ -192,6 +199,7 @@
       "block_order": [
         "judge_me_reviews_preview_badge_UV6bMz",
         "title_HnnVx9",
+        "description_XpzNBP",
         "price_8Mn6hJ",
         "variant_picker_wG3dMW",
         "quantity_selector_TawXhB",
@@ -200,7 +208,7 @@
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "display_id": false,
-        "visibility": "desktop-hidden",
+        "visibility": "always-display",
         "color_scheme": "background-1",
         "secondary_background": false,
         "enable_sticky_info": true,
