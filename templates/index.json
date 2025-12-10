@@ -15,6 +15,7 @@
         "template--21507361505575__cfca4268-6358-426c-98ab-d292aeef11e5-slide-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Titel_3_kopie.webp",
             "image_overlay_opacity": 0,
             "heading": "Réveille-toi en silence, sans réveiller personne.",
             "title_highlight_color": "#121212",
@@ -357,19 +358,10 @@
         "custom_section_gradient_background": ""
       }
     },
-    "testimonials_U38d69": {
+    "testimonials_X8JzTt": {
       "type": "testimonials",
       "blocks": {
-        "column_A8CaQq": {
-          "type": "column",
-          "settings": {
-            "star_rating": 5,
-            "title": "Sarah",
-            "text": "<p><br/>“Je ne réveille plus mon mari le matin, c’est incroyable.”<br/><br/></p>",
-            "author": "<em><strong>Sarah</strong></em>"
-          }
-        },
-        "column_bTPwWq": {
+        "column_rgrXUG": {
           "type": "column",
           "settings": {
             "star_rating": 5,
@@ -378,7 +370,7 @@
             "author": "<em><strong>Author</strong></em>"
           }
         },
-        "column_KdfGxj": {
+        "column_kpjbn8": {
           "type": "column",
           "settings": {
             "star_rating": 5,
@@ -387,25 +379,7 @@
             "author": "<em><strong>Author</strong></em>"
           }
         },
-        "column_VUF9jm": {
-          "type": "column",
-          "settings": {
-            "star_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_9qVTLH": {
-          "type": "column",
-          "settings": {
-            "star_rating": 5,
-            "title": "Heading",
-            "text": "<p>Share positive thoughts and feedback from your customer..</p>",
-            "author": "<em><strong>Author</strong></em>"
-          }
-        },
-        "column_Py3fpW": {
+        "column_k8kYbc": {
           "type": "column",
           "settings": {
             "star_rating": 5,
@@ -416,19 +390,16 @@
         }
       },
       "block_order": [
-        "column_A8CaQq",
-        "column_bTPwWq",
-        "column_KdfGxj",
-        "column_VUF9jm",
-        "column_9qVTLH",
-        "column_Py3fpW"
+        "column_rgrXUG",
+        "column_kpjbn8",
+        "column_k8kYbc"
       ],
       "name": "Testimonials",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Témoignage",
-        "title_highlight_color": "#6d388b",
+        "title": "Testimonials",
+        "title_highlight_color": "#6D388B",
         "heading_size": "h1",
         "text": "",
         "color_scheme": "background-1",
@@ -465,12 +436,12 @@
         "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
+        "custom_colors_background": "#FFFFFF",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
-        "custom_cards_colors_background": "#f3f3f3",
+        "custom_colors_text": "#2E2A39",
+        "custom_cards_colors_background": "#F3F3F3",
         "custom_cards_gradient_background": "",
-        "custom_cards_colors_text": "#2e2a39"
+        "custom_cards_colors_text": "#2E2A39"
       }
     }
   },
@@ -480,6 +451,6 @@
     "collage_cbwXqx",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
-    "testimonials_U38d69"
+    "testimonials_X8JzTt"
   ]
 }
