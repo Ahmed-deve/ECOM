@@ -291,6 +291,72 @@
         "custom_cards_colors_text": "#2e2a39"
       }
     },
+    "image_with_text_WEbJ7J": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kM7fiB": {
+          "type": "heading",
+          "settings": {
+            "title": "En rupture chaque semaine",
+            "title_highlight_color": "#6d388b",
+            "heading_size": "h1"
+          }
+        },
+        "text_tCaGX4": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>+10 000 clients se réveillent déjà en silence<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_V3Aijf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://products/rize",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kM7fiB",
+        "text_tCaGX4",
+        "button_V3Aijf"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "image": "shopify://shop_images/42_bacfe595-9ca6-441c-ba12-3678695eaf3f.webp",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2e2a39",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#ffffff",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_section_colors_background": "#ffffff",
+        "custom_section_gradient_background": ""
+      }
+    },
     "testimonials_U38d69": {
       "type": "testimonials",
       "blocks": {
@@ -406,72 +472,6 @@
         "custom_cards_gradient_background": "",
         "custom_cards_colors_text": "#2e2a39"
       }
-    },
-    "image_with_text_WEbJ7J": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_kM7fiB": {
-          "type": "heading",
-          "settings": {
-            "title": "En rupture chaque semaine",
-            "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
-          }
-        },
-        "text_tCaGX4": {
-          "type": "text",
-          "settings": {
-            "text": "<p><br/>+10 000 clients se réveillent déjà en silence<br/><br/></p>",
-            "text_style": "body"
-          }
-        },
-        "button_V3Aijf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify://products/rize",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_kM7fiB",
-        "text_tCaGX4",
-        "button_V3Aijf"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/42_bacfe595-9ca6-441c-ba12-3678695eaf3f.webp",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": false,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
-      }
     }
   },
   "order": [
@@ -479,7 +479,7 @@
     "logo_list_hD8XzA",
     "collage_cbwXqx",
     "multicolumn_DCHakL",
-    "testimonials_U38d69",
-    "image_with_text_WEbJ7J"
+    "image_with_text_WEbJ7J",
+    "testimonials_U38d69"
   ]
 }
