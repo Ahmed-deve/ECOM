@@ -170,7 +170,7 @@
         "visibility": "always-display",
         "title": "Pourquoi Notre Bracelet ?",
         "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
@@ -188,6 +188,7 @@
         "column_ynYDXt": {
           "type": "column",
           "settings": {
+            "video": "shopify://files/videos/abd8be0511fd46b3997d0daa12ef6057.mov",
             "muted_autoplay": true,
             "title": "Column",
             "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -198,6 +199,7 @@
         "column_w6tqYL": {
           "type": "column",
           "settings": {
+            "video": "shopify://files/videos/97e581d4c208413f9965be4cfc6df916.mov",
             "muted_autoplay": true,
             "title": "Column",
             "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -208,6 +210,7 @@
         "column_m7GFA6": {
           "type": "column",
           "settings": {
+            "video": "shopify://files/videos/fit sleep qui se reveil trql.mp4",
             "muted_autoplay": true,
             "title": "Column",
             "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
@@ -225,7 +228,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Avant/Après",
+        "title": "Ce que nos clients en disent",
         "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "button_label": "",
