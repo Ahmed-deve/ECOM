@@ -377,7 +377,7 @@
         "display_id": false,
         "visibility": "always-display",
         "title": "",
-        "title_highlight_color": "#6D388B",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "text": "",
         "color_scheme": "background-2",
@@ -404,9 +404,9 @@
         "mobile_arrows_position": "under",
         "post_bg_color": "#ffffff",
         "post_text_color": "#101010",
-        "comments_bg_color": "#F0F2F5",
+        "comments_bg_color": "#f0f2f5",
         "separators_color": "#a4b0be",
-        "post_border_color": "#DFDFDF",
+        "post_border_color": "#dfdfdf",
         "border_width": 1,
         "like_label": "Like",
         "comment_label": "Comment",
@@ -414,9 +414,9 @@
         "share_label": "Share",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#F3F3F3",
+        "custom_colors_background": "#f3f3f3",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39"
+        "custom_colors_text": "#2e2a39"
       }
     },
     "image_with_text_yyBpaW": {
@@ -637,7 +637,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image": "shopify://shop_images/Izdelek_brez_naslova_6.webp",
+        "image": "shopify://shop_images/5a451c09-8e79-4a88-97ee-dbbf02fe21a8.png",
         "video_autoplay": true,
         "video_loop": true,
         "height": "adapt",
