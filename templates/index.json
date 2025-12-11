@@ -151,37 +151,6 @@
         "custom_section_gradient_background": ""
       }
     },
-    "collage_cbwXqx": {
-      "type": "collage",
-      "blocks": {
-        "image_gLDAJc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/acceuil_bb.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_gLDAJc"
-      ],
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Pourquoi Notre Bracelet ?",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39"
-      }
-    },
     "multicolumn_DCHakL": {
       "type": "multicolumn",
       "blocks": {
@@ -431,7 +400,6 @@
     "image_banner_CfnDJ6",
     "logo_list_hD8XzA",
     "shoppable_image_37BzKP",
-    "collage_cbwXqx",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
     "testimonials_X8JzTt"
