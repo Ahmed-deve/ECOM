@@ -142,7 +142,7 @@
         "desktop_content_alignment": "left",
         "mobile_full_media_width": false,
         "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
+        "mobile_image_quanlity": "1",
         "mobile_content_alignment": "left",
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
