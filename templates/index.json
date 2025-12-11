@@ -61,6 +61,7 @@
         "logo_tRwLjR": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/Cosmopolitan-Logo-New.jpg",
             "link": "",
             "target_blank": false
           }
@@ -130,7 +131,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Voyez la différence entre un reveil bruyant et un reveil calme",
+        "title": "Voyez la différence entre un reveil bruyant et un reveil avec rize",
         "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "button_label": "",
@@ -232,8 +233,8 @@
           "settings": {
             "video": "shopify://files/videos/abd8be0511fd46b3997d0daa12ef6057.mov",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -243,8 +244,8 @@
           "settings": {
             "video": "shopify://files/videos/97e581d4c208413f9965be4cfc6df916.mov",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -254,8 +255,8 @@
           "settings": {
             "video": "shopify://files/videos/fit sleep qui se reveil trql.mp4",
             "muted_autoplay": true,
-            "title": "Column",
-            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
