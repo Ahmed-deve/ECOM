@@ -83,7 +83,7 @@
         "color_scheme": "background-1",
         "layout": "vertical",
         "desktop_logo_height": 50,
-        "columns_mobile": 2,
+        "columns_mobile": 4,
         "mobile_logo_height": 50,
         "mobile_slider": true,
         "autoplay": true,
