@@ -16,7 +16,7 @@
           "type": "text",
           "settings": {
             "text": "Reveillez vous en douceur",
-            "text_style": "body"
+            "text_style": "subtitle"
           }
         }
       },
@@ -30,11 +30,11 @@
         "image": "shopify://shop_images/Titel_3_kopie.webp",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 10,
         "image_height": "medium",
         "url": "",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "transparent_container_color": "white",
@@ -109,132 +109,55 @@
         "custom_colors_text": "#121212"
       }
     },
-    "multicolumn_aQfJmD": {
-      "type": "multicolumn",
+    "image_with_text_mEctGe": {
+      "type": "image-with-text",
       "blocks": {
-        "column_JxPxTr": {
-          "type": "column",
+        "image_RqKWrV": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/427e10c5-c6b5-44ac-a97b-07aece7fce36_c9358912-62c4-4edd-9e2e-f4b24ac367fa.png",
-            "muted_autoplay": true,
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_ewTfRG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/56b949e9-a611-464a-a24a-8eb231fc47b9_17d8528e-fc2d-43b3-954f-b9006eee8f17.png",
-            "muted_autoplay": true,
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/56b949e9-a611-464a-a24a-8eb231fc47b9_1.png",
+            "width": 100,
+            "alignment": "center",
+            "mobile_alignment": "center",
+            "border_radius": 0
           }
         }
       },
       "block_order": [
-        "column_JxPxTr",
-        "column_ewTfRG"
+        "image_RqKWrV"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Voyez la différence entre un reveil bruyant et un reveil avec rize",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
-        "button_label": "",
-        "button_link": "",
-        "atc_button_label": "",
-        "atc_product": "",
-        "atc_skip_cart": false,
+        "image": "shopify://shop_images/427e10c5-c6b5-44ac-a97b-07aece7fce36_c9358912-62c4-4edd-9e2e-f4b24ac367fa.png",
+        "video_autoplay": true,
+        "video_loop": true,
+        "height": "medium",
         "color_scheme": "background-1",
-        "cards_color_scheme": "bg-overlay",
-        "cards_corner_radius": 20,
-        "stretch_cards": false,
-        "stretched_cards_content_alignment": "center",
-        "image_width": "full",
-        "image_ratio": "square",
-        "media_position": "top",
-        "column_alignment": "center",
-        "desktop_heading_size": 24,
-        "mobile_heading_size": 22,
-        "desktop_text_size": 16,
-        "mobile_text_size": 15,
-        "desktop_text_top_margin": 10,
-        "mobile_text_top_margin": 10,
-        "desktop_container_padding_y": 24,
-        "desktop_container_padding_x": 24,
-        "mobile_container_padding_y": 24,
-        "mobile_container_padding_x": 24,
-        "type": "slide",
-        "autoplay": false,
-        "autoplay_speed": 5,
-        "arrows_color_scheme": "inverse",
-        "transparent_arrows": false,
-        "dots_color_scheme": "inverse",
-        "desktop_full_page": false,
-        "columns_desktop": 3,
-        "slider_desktop": false,
-        "per_move_desktop": 1,
-        "desktop_spacing": 40,
-        "desktop_side_padding": 0,
-        "desktop_padding_calc": true,
-        "desktop_adaptive_height": false,
-        "desktop_dots_position": "under",
-        "desktop_arrows_position": "sides",
-        "columns_mobile": "2",
-        "slider_mobile": true,
-        "enable_mobile_preview": false,
-        "mobile_adaptive_height": false,
-        "mobile_dots_position": "under",
-        "mobile_arrows_position": "under",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
+        "section_color_scheme": "background-1",
+        "full_desktop_width": false,
+        "content_layout": "no-overlap",
+        "desktop_media_width": 50,
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_full_media_width": false,
+        "mobile_direction": "normal",
+        "mobile_image_quanlity": "2",
+        "mobile_content_alignment": "left",
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 16,
+        "desktop_padding_top": 36,
+        "desktop_padding_bottom": 36,
+        "custom_colors_background": "#2E2A39",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39",
+        "custom_colors_text": "#FFFFFF",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_cards_colors_background": "#f3f3f3",
-        "custom_cards_gradient_background": "",
-        "custom_cards_colors_heading": "#222126",
-        "custom_cards_colors_text": "#2e2a39"
-      }
-    },
-    "collage_cbwXqx": {
-      "type": "collage",
-      "blocks": {
-        "image_gLDAJc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/acceuil_bb.png"
-          }
-        }
-      },
-      "block_order": [
-        "image_gLDAJc"
-      ],
-      "name": "t:sections.collage.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "title": "Pourquoi Notre Bracelet ?",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2e2a39"
+        "custom_section_colors_background": "#FFFFFF",
+        "custom_section_gradient_background": ""
       }
     },
     "multicolumn_DCHakL": {
@@ -533,8 +456,7 @@
   "order": [
     "image_banner_CfnDJ6",
     "logo_list_hD8XzA",
-    "multicolumn_aQfJmD",
-    "collage_cbwXqx",
+    "image_with_text_mEctGe",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
     "testimonials_X8JzTt",
