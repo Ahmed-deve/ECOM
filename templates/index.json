@@ -11,6 +11,18 @@
   "sections": {
     "image_banner_CfnDJ6": {
       "type": "image-banner",
+      "blocks": {
+        "text_x9yxAG": {
+          "type": "text",
+          "settings": {
+            "text": "Reveillez vous en douceur",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_x9yxAG"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
@@ -486,11 +498,18 @@
           "settings": {
             "text": "<p>Avis vérifiés de personnes sourdes, malentendantes et gros dormeurs.</p>"
           }
+        },
+        "text_APaT9x": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>⭐Trustpilot</strong></p>"
+          }
         }
       },
       "block_order": [
         "heading_8KQiDM",
-        "text_tiXNM7"
+        "text_tiXNM7",
+        "text_APaT9x"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
