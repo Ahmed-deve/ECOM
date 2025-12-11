@@ -11,18 +11,6 @@
   "sections": {
     "image_banner_CfnDJ6": {
       "type": "image-banner",
-      "blocks": {
-        "text_x9yxAG": {
-          "type": "text",
-          "settings": {
-            "text": "Reveillez vous en douceur",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "text_x9yxAG"
-      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
@@ -30,11 +18,11 @@
         "image": "shopify://shop_images/Titel_3_kopie.webp",
         "image_1_visibility": "always-display",
         "image_2_visibility": "always-display",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "url": "",
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "transparent_container_color": "white",
@@ -73,7 +61,6 @@
         "logo_tRwLjR": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Cosmopolitan-Logo-New.jpg",
             "link": "",
             "target_blank": false
           }
@@ -109,10 +96,10 @@
         "custom_colors_text": "#121212"
       }
     },
-    "multicolumn_9NPajg": {
+    "multicolumn_aQfJmD": {
       "type": "multicolumn",
       "blocks": {
-        "column_Qp9daz": {
+        "column_JxPxTr": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/427e10c5-c6b5-44ac-a97b-07aece7fce36_c9358912-62c4-4edd-9e2e-f4b24ac367fa.png",
@@ -123,10 +110,10 @@
             "link": ""
           }
         },
-        "column_e7MReh": {
+        "column_ewTfRG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/56b949e9-a611-464a-a24a-8eb231fc47b9_1.png",
+            "image": "shopify://shop_images/56b949e9-a611-464a-a24a-8eb231fc47b9_17d8528e-fc2d-43b3-954f-b9006eee8f17.png",
             "muted_autoplay": true,
             "title": "",
             "text": "",
@@ -136,15 +123,15 @@
         }
       },
       "block_order": [
-        "column_Qp9daz",
-        "column_e7MReh"
+        "column_JxPxTr",
+        "column_ewTfRG"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Avant / Apres",
-        "title_highlight_color": "#6D388B",
+        "title": "Voyez la différence entre un reveil bruyant et un reveil calme",
+        "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "button_label": "",
         "button_link": "",
@@ -174,7 +161,7 @@
         "autoplay": false,
         "autoplay_speed": 5,
         "arrows_color_scheme": "inverse",
-        "transparent_arrows": true,
+        "transparent_arrows": false,
         "dots_color_scheme": "inverse",
         "desktop_full_page": false,
         "columns_desktop": 3,
@@ -186,7 +173,7 @@
         "desktop_adaptive_height": false,
         "desktop_dots_position": "under",
         "desktop_arrows_position": "sides",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "slider_mobile": true,
         "enable_mobile_preview": false,
         "mobile_adaptive_height": false,
@@ -194,52 +181,47 @@
         "mobile_arrows_position": "under",
         "padding_top": 36,
         "padding_bottom": 36,
-        "custom_colors_background": "#FFFFFF",
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
+        "custom_colors_text": "#2e2a39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_colors_background": "#f3f3f3",
         "custom_cards_gradient_background": "",
         "custom_cards_colors_heading": "#222126",
-        "custom_cards_colors_text": "#2E2A39"
+        "custom_cards_colors_text": "#2e2a39"
       }
     },
-    "image_with_text_qeVtkW": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
+    "collage_cbwXqx": {
+      "type": "collage",
+      "blocks": {
+        "image_gLDAJc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/acceuil_bb.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_gLDAJc"
+      ],
+      "name": "t:sections.collage.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image": "shopify://shop_images/acceuil_bb.png",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
+        "title": "Pourquoi Notre Bracelet ?",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
         "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": true,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 75,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "center",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2E2A39",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#FFFFFF",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#FFFFFF",
-        "custom_section_gradient_background": ""
+        "custom_colors_text": "#2e2a39"
       }
     },
     "multicolumn_DCHakL": {
@@ -250,8 +232,8 @@
           "settings": {
             "video": "shopify://files/videos/abd8be0511fd46b3997d0daa12ef6057.mov",
             "muted_autoplay": true,
-            "title": "",
-            "text": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -261,8 +243,8 @@
           "settings": {
             "video": "shopify://files/videos/97e581d4c208413f9965be4cfc6df916.mov",
             "muted_autoplay": true,
-            "title": "",
-            "text": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -272,8 +254,8 @@
           "settings": {
             "video": "shopify://files/videos/fit sleep qui se reveil trql.mp4",
             "muted_autoplay": true,
-            "title": "",
-            "text": "",
+            "title": "Column",
+            "text": "<p>Pair text with an image/video to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -354,13 +336,6 @@
     "image_with_text_WEbJ7J": {
       "type": "image-with-text",
       "blocks": {
-        "text_jEEBpK": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rise - Le bracelet élégant qui vous réveille en douceur </p>",
-            "text_style": "body"
-          }
-        },
         "button_h9AN4j": {
           "type": "button",
           "settings": {
@@ -371,14 +346,13 @@
         }
       },
       "block_order": [
-        "text_jEEBpK",
         "button_h9AN4j"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image": "shopify://shop_images/Design_sans_titre.png",
+        "image": "shopify://shop_images/42_bacfe595-9ca6-441c-ba12-3678695eaf3f.webp",
         "video_autoplay": true,
         "video_loop": true,
         "height": "adapt",
@@ -388,11 +362,11 @@
         "content_layout": "no-overlap",
         "desktop_media_width": 50,
         "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
         "mobile_full_media_width": false,
         "mobile_direction": "normal",
-        "mobile_image_quanlity": "1",
+        "mobile_image_quanlity": "2",
         "mobile_content_alignment": "left",
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
@@ -493,63 +467,15 @@
         "custom_cards_gradient_background": "",
         "custom_cards_colors_text": "#2e2a39"
       }
-    },
-    "rich_text_DMmrmp": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_8KQiDM": {
-          "type": "heading",
-          "settings": {
-            "title": "Note moyenne : 4,8 / 5 · 152 avis",
-            "title_highlight_color": "#6D388B",
-            "heading_size": "h1"
-          }
-        },
-        "text_tiXNM7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Avis vérifiés de personnes sourdes, malentendantes et gros dormeurs.</p>"
-          }
-        },
-        "text_APaT9x": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>⭐Trustpilot</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_8KQiDM",
-        "text_tiXNM7",
-        "text_APaT9x"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "custom_colors_background": "#FFFFFF",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#2E2A39",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d"
-      }
     }
   },
   "order": [
     "image_banner_CfnDJ6",
     "logo_list_hD8XzA",
-    "multicolumn_9NPajg",
-    "image_with_text_qeVtkW",
+    "multicolumn_aQfJmD",
+    "collage_cbwXqx",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
-    "testimonials_X8JzTt",
-    "rich_text_DMmrmp"
+    "testimonials_X8JzTt"
   ]
 }

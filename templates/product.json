@@ -50,41 +50,10 @@
             "margin_bottom": 15
           }
         },
-        "variant_picker_wG3dMW": {
-          "type": "variant_picker",
+        "custom_liquid_fHVzCq": {
+          "type": "custom_liquid",
           "settings": {
-            "picker_types": "pills, pills, pills",
-            "custom_labels": "",
-            "disable_prepend": false,
-            "swatches_size": "medium",
-            "swatches_border_radius": 100,
-            "swatches_custom_colors": "disabled",
-            "swatches_custom_colors_list": "#000000, #FFFFFF",
-            "breaks_style": "normal",
-            "breaks_headline": "BUNDLE & SAVE",
-            "breaks_display_selected_indicator": true,
-            "breaks_border_radius": 10,
-            "breaks_border_width": 2,
-            "breaks_color_scheme": "accent-1",
-            "breaks_badges": "[empty], Most popular, [empty]",
-            "breaks_badge_style": "1",
-            "breaks_badge_color": "accent-1",
-            "breaks_displayed_images": "none",
-            "breaks_custom_images": "",
-            "breaks_image_width": 70,
-            "breaks_space_images": true,
-            "breaks_vertical_images_position": "top",
-            "breaks_vertical_prices_layout": "vertical",
-            "breaks_labels": "[name], [name], [name]",
-            "breaks_benefits": "[empty], Free Shipping, Free Shipping",
-            "breaks_benefit_position": "top",
-            "breaks_benefit_style": "outlined",
-            "breaks_benefit_color": "accent-1",
-            "breaks_captions": "Variant 1 caption, Variant 2 caption, Variant 3 caption",
-            "breaks_price_texts": "[price], [price], [price]",
-            "breaks_compare_price_texts": "[compare_price], [compare_price], [compare_price]",
-            "margin_top": 15,
-            "margin_bottom": 15
+            "custom_liquid": "<style>\n.bundle-table {\n  border: 2px solid #eee;\n  border-radius: 12px;\n  padding: 10px;\n  margin-bottom: 20px;\n  background: #fff;\n}\n.bundle-option {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 14px;\n  border-radius: 10px;\n  cursor: pointer;\n  border: 2px solid #eee;\n  margin-bottom: 10px;\n  transition: 0.2s;\n}\n.bundle-option:hover {\n  border-color: #ffae00;\n  background: #fff9e5;\n}\n.bundle-option img {\n  width: 55px;\n  height: auto;\n}\n.bundle-left {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n}\n.bundle-title {\n  font-weight: 600;\n  font-size: 16px;\n}\n.bundle-save {\n  background: #ffae00;\n  color: white;\n  padding: 2px 8px;\n  border-radius: 6px;\n  font-size: 12px;\n}\n.bundle-price {\n  text-align: right;\n}\n.bundle-new {\n  font-size: 18px;\n  font-weight: 700;\n}\n.bundle-old {\n  font-size: 14px;\n  text-decoration: line-through;\n  opacity: 0.6;\n}\n</style>\n\n<div class=\"bundle-table\">\n\n  <!-- 1 PACK -->\n  <div class=\"bundle-option\" onclick=\"document.querySelector('input[value=\\'Single\\']').click()\">\n    <div class=\"bundle-left\">\n      <img src=\"IMAGE_SINGLE\" alt=\"\">\n      <div>\n        <div class=\"bundle-title\">Single</div>\n        <div class=\"bundle-save\">SAVE 20€</div>\n      </div>\n    </div>\n    <div class=\"bundle-price\">\n      <div class=\"bundle-new\">55€</div>\n      <div class=\"bundle-old\">75€</div>\n    </div>\n  </div>\n\n  <!-- 2 PACK -->\n  <div class=\"bundle-option\" onclick=\"document.querySelector('input[value=\\'Double\\']').click()\">\n    <div class=\"bundle-left\">\n      <img src=\"IMAGE_DOUBLE\" alt=\"\">\n      <div>\n        <div class=\"bundle-title\">Double</div>\n        <div class=\"bundle-save\">SAVE 71€</div>\n      </div>\n    </div>\n    <div class=\"bundle-price\">\n      <div class=\"bundle-new\">79€</div>\n      <div class=\"bundle-old\">150€</div>\n    </div>\n  </div>\n\n  <!-- 3 PACK -->\n  <div class=\"bundle-option\" onclick=\"document.querySelector('input[value=\\'3-Pack\\']').click()\">\n    <div class=\"bundle-left\">\n      <img src=\"IMAGE_3PACK\" alt=\"\">\n      <div>\n        <div class=\"bundle-title\">3-Pack</div>\n        <div class=\"bundle-save\">SAVE 126€</div>\n      </div>\n    </div>\n    <div class=\"bundle-price\">\n      <div class=\"bundle-new\">99€</div>\n      <div class=\"bundle-old\">225€</div>\n    </div>\n  </div>\n\n  <!-- 4 PACK -->\n  <div class=\"bundle-option\" onclick=\"document.querySelector('input[value=\\'4-Pack\\']').click()\">\n    <div class=\"bundle-left\">\n      <img src=\"IMAGE_4PACK\" alt=\"\">\n      <div>\n        <div class=\"bundle-title\">4-Pack</div>\n        <div class=\"bundle-save\">SAVE 181€</div>\n      </div>\n    </div>\n    <div class=\"bundle-price\">\n      <div class=\"bundle-new\">119€</div>\n      <div class=\"bundle-old\">300€</div>\n    </div>\n  </div>\n\n</div>"
           }
         },
         "quantity_selector_TawXhB": {
@@ -207,7 +176,7 @@
         "title_HnnVx9",
         "description_XpzNBP",
         "price_8Mn6hJ",
-        "variant_picker_wG3dMW",
+        "custom_liquid_fHVzCq",
         "quantity_selector_TawXhB",
         "buy_buttons_R3EnBm",
         "custom_liquid_yRiQF8"
