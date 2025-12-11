@@ -303,7 +303,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "image": "shopify://shop_images/3c39932c-6b77-4aa2-a50f-77c7748ff85d.png",
+        "image": "shopify://shop_images/19e64ccd-2353-48dd-b16f-b45b64cf06b7.png",
         "video_autoplay": true,
         "video_loop": true,
         "height": "adapt",
@@ -315,7 +315,7 @@
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
+        "mobile_full_media_width": true,
         "mobile_direction": "normal",
         "mobile_image_quanlity": "1",
         "mobile_content_alignment": "center",
