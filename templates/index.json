@@ -78,7 +78,7 @@
         "visibility": "always-display",
         "title": "VU SUR",
         "title_highlight_color": "#6d388b",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "gray_logos": false,
         "color_scheme": "background-1",
         "layout": "vertical",
