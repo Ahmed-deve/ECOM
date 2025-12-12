@@ -45,61 +45,16 @@
         "show_text_below": false
       }
     },
-    "logo_list_hD8XzA": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_TBT8tN": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/vogue.png",
-            "link": "https://www.vogue.fr/",
-            "target_blank": false
-          }
-        },
-        "logo_EJ8K78": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/marie_claire.png",
-            "link": "",
-            "target_blank": false
-          }
-        },
-        "logo_46widT": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/elle.png",
-            "link": "",
-            "target_blank": false
-          }
-        }
-      },
-      "block_order": [
-        "logo_TBT8tN",
-        "logo_EJ8K78",
-        "logo_46widT"
-      ],
-      "name": "Featured on",
+    "custom_liquid_qhxqzq": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Ils en parlent",
-        "title_highlight_color": "#6d388b",
-        "heading_size": "h2",
-        "gray_logos": false,
+        "custom_liquid": "<style>\n  .press-strip {\n    background: #ffffff;\n    padding: 18px 0;\n    overflow: hidden;\n  }\n\n  .press-strip__track {\n    display: flex;\n    gap: 56px;\n    align-items: center;\n    width: max-content;\n    animation: pressMarquee 18s linear infinite;\n    will-change: transform;\n  }\n\n  .press-strip__wrap {\n    display: flex;\n    gap: 56px;\n    align-items: center;\n  }\n\n  .press-strip img {\n    height: 34px;\n    width: auto;\n    opacity: 0.9;\n    filter: grayscale(100%);\n  }\n\n  .press-strip:hover .press-strip__track {\n    animation-play-state: paused;\n  }\n\n  @keyframes pressMarquee {\n    from { transform: translateX(0); }\n    to { transform: translateX(-50%); }\n  }\n\n  @media (max-width: 768px) {\n    .press-strip img {\n      height: 26px;\n    }\n    .press-strip__track {\n      animation-duration: 14s;\n    }\n  }\n</style>\n\n<section class=\"press-strip\" aria-label=\"Ils parlent de nous\">\n  <div class=\"press-strip__track\">\n\n    <!-- Bloc 1 -->\n    <div class=\"press-strip__wrap\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/bloom.png?v=1765573123\" alt=\"Bloomberg\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/webmd.png?v=1765573123\" alt=\"WebMD\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/The-Guardian-logo.png?v=1765573123\" alt=\"The Guardian\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/Healthline_logo_6-RGB_Large_20a2e604-5d5b-4670-b056-8a9d7b814e01.png?v=1765573123\" alt=\"Healthline\">\n    </div>\n\n    <!-- Bloc 2 (copie pour boucle infinie) -->\n    <div class=\"press-strip__wrap\" aria-hidden=\"true\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/bloom.png?v=1765573123\" alt=\"\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/webmd.png?v=1765573123\" alt=\"\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/The-Guardian-logo.png?v=1765573123\" alt=\"\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/Healthline_logo_6-RGB_Large_20a2e604-5d5b-4670-b056-8a9d7b814e01.png?v=1765573123\" alt=\"\">\n    </div>\n\n  </div>\n</section>",
         "color_scheme": "background-1",
-        "layout": "vertical",
-        "desktop_logo_height": 90,
-        "columns_mobile": 3,
-        "mobile_logo_height": 100,
-        "mobile_slider": true,
-        "autoplay": true,
-        "autoplay_speed": 4,
-        "show_dots": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "custom_colors_background": "#ffffff",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#121212"
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "shoppable_image_37BzKP": {
@@ -391,7 +346,7 @@
   },
   "order": [
     "image_banner_CfnDJ6",
-    "logo_list_hD8XzA",
+    "custom_liquid_qhxqzq",
     "shoppable_image_37BzKP",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
