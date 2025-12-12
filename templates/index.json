@@ -54,7 +54,7 @@
         "custom_liquid": "<style>\n  .press-section {\n    background: #ffffff;\n    padding: 38px 0 30px;\n    overflow: hidden;\n  }\n\n  .press-title {\n    text-align: center;\n    font-size: 20px; /* ⬆️ légèrement agrandi */\n    font-weight: 600;\n    margin-bottom: 26px;\n    color: #111;\n    letter-spacing: 0.4px;\n  }\n\n  .press-marquee {\n    display: flex;\n    width: max-content;\n    animation: marquee 18s linear infinite;\n    will-change: transform;\n  }\n\n  .press-group {\n    display: flex;\n    align-items: center;\n    gap: 64px;\n    padding-right: 64px;\n  }\n\n  /* 🔑 NORMALISATION DES LOGOS */\n  .press-group img {\n    max-height: 46px;        /* hauteur visuelle identique */\n    width: auto;\n    max-width: 160px;       /* empêche Healthline d’être trop large */\n    object-fit: contain;\n    opacity: 0.9;\n    filter: grayscale(100%);\n  }\n\n  @keyframes marquee {\n    0% { transform: translateX(0); }\n    100% { transform: translateX(-50%); }\n  }\n\n  @media (max-width: 768px) {\n    .press-title {\n      font-size: 17px;\n    }\n\n    .press-group img {\n      max-height: 36px;\n      max-width: 130px;\n    }\n\n    .press-marquee {\n      animation-duration: 14s;\n    }\n  }\n</style>\n\n<section class=\"press-section\" aria-label=\"Ils en parlent\">\n  <div class=\"press-title\">Ils en parlent</div>\n\n  <div class=\"press-marquee\">\n\n    <!-- Groupe 1 -->\n    <div class=\"press-group\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/bloom.png?v=1765573123\" alt=\"Bloomberg\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/webmd.png?v=1765573123\" alt=\"WebMD\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/The-Guardian-logo.png?v=1765573123\" alt=\"The Guardian\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/Healthline_logo_6-RGB_Large_20a2e604-5d5b-4670-b056-8a9d7b814e01.png?v=1765573123\" alt=\"Healthline\">\n    </div>\n\n    <!-- Groupe 2 (duplication pour boucle infinie) -->\n    <div class=\"press-group\" aria-hidden=\"true\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/bloom.png?v=1765573123\" alt=\"\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/webmd.png?v=1765573123\" alt=\"\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/The-Guardian-logo.png?v=1765573123\" alt=\"\">\n      <img src=\"https://cdn.shopify.com/s/files/1/1009/7587/0277/files/Healthline_logo_6-RGB_Large_20a2e604-5d5b-4670-b056-8a9d7b814e01.png?v=1765573123\" alt=\"\">\n    </div>\n\n  </div>\n</section>",
         "color_scheme": "background-1",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 16
       }
     },
     "shoppable_image_37BzKP": {
@@ -112,6 +112,91 @@
         "custom_section_gradient_background": ""
       }
     },
+    "multicolumn_zFw8yK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8iPUW6": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/97e581d4c208413f9965be4cfc6df916.mov",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "<p><strong>Vous mettez le bracelet avant d'aller vous coucher et réglez facilement le réveil. Lorsque le réveil sonne, vous l'éteignez et reposez le bracelet sur votre table de chevet.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8iPUW6"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Comment ça marche ?",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "bg-overlay",
+        "cards_corner_radius": 20,
+        "stretch_cards": false,
+        "stretched_cards_content_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "square",
+        "media_position": "top",
+        "column_alignment": "center",
+        "desktop_heading_size": 24,
+        "mobile_heading_size": 22,
+        "desktop_text_size": 16,
+        "mobile_text_size": 15,
+        "desktop_text_top_margin": 10,
+        "mobile_text_top_margin": 10,
+        "desktop_container_padding_y": 24,
+        "desktop_container_padding_x": 24,
+        "mobile_container_padding_y": 24,
+        "mobile_container_padding_x": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_heading": "#222126",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    },
     "multicolumn_DCHakL": {
       "type": "multicolumn",
       "blocks": {
@@ -161,8 +246,8 @@
           "settings": {
             "video": "shopify://files/videos/97e581d4c208413f9965be4cfc6df916.mov",
             "muted_autoplay": true,
-            "title": "",
-            "text": "",
+            "title": "Comment ça marche ?",
+            "text": "<p>Vous mettez le bracelet avant d'aller vous coucher et réglez facilement le réveil. Lorsque le réveil sonne, vous l'éteignez et reposez le bracelet sur votre table de chevet.</p>",
             "link_label": "",
             "link": ""
           }
@@ -288,7 +373,7 @@
             "layout": "price_first",
             "price_color": "accent-1",
             "compare_price_color": "text",
-            "displayed_badge": "sale",
+            "displayed_badge": "none",
             "icon_scale": 140,
             "custom_badge_text": "[icon_1] SPECIAL OFFER",
             "icon_1": "redeem",
@@ -370,7 +455,7 @@
         "trust_badge_position": "top-right",
         "trust_badge_size": "medium",
         "mobile_padding_top": 8,
-        "mobile_padding_bottom": 0,
+        "mobile_padding_bottom": 28,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36
       }
@@ -405,6 +490,7 @@
     "image_banner_CfnDJ6",
     "custom_liquid_qhxqzq",
     "shoppable_image_37BzKP",
+    "multicolumn_zFw8yK",
     "multicolumn_DCHakL",
     "featured_product_kNeGtm",
     "17655810313cd5e2dd"
