@@ -45,6 +45,39 @@
         "show_text_below": false
       }
     },
+    "rich_text_epRJCt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JMXx9h": {
+          "type": "heading",
+          "settings": {
+            "title": "Ils en parlent",
+            "title_highlight_color": "#6D388B",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JMXx9h"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d"
+      }
+    },
     "custom_liquid_qhxqzq": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -346,6 +379,7 @@
   },
   "order": [
     "image_banner_CfnDJ6",
+    "rich_text_epRJCt",
     "custom_liquid_qhxqzq",
     "shoppable_image_37BzKP",
     "multicolumn_DCHakL",
