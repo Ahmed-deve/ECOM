@@ -15,15 +15,16 @@
         "heading_6ijDcj": {
           "type": "heading",
           "settings": {
-            "title": "Ne soyez plus en retard grace a LINGONE",
+            "title": "Le silence vous réveille",
             "title_highlight_color": "#6d388b",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         }
       },
       "block_order": [
         "heading_6ijDcj"
       ],
+      "custom_css": [],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "display_id": false,
@@ -81,7 +82,7 @@
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "VU SUR",
+        "title": "Ils en parlent",
         "title_highlight_color": "#6d388b",
         "heading_size": "h2",
         "gray_logos": false,
