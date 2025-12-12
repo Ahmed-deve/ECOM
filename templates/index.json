@@ -112,6 +112,37 @@
         "custom_section_gradient_background": ""
       }
     },
+    "collage_WLpHqc": {
+      "type": "collage",
+      "blocks": {
+        "image_ttekJL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2049af9b-0f4c-43c7-bc35-2e111826781f_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_ttekJL"
+      ],
+      "name": "t:sections.collage.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Pourquoi Lingone ?",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39"
+      }
+    },
     "multicolumn_DCHakL": {
       "type": "multicolumn",
       "blocks": {
@@ -372,6 +403,7 @@
     "image_banner_CfnDJ6",
     "custom_liquid_qhxqzq",
     "shoppable_image_37BzKP",
+    "collage_WLpHqc",
     "multicolumn_DCHakL",
     "image_with_text_WEbJ7J",
     "testimonials_X8JzTt",
