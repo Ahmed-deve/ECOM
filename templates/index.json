@@ -542,6 +542,12 @@
       "block_order": [
         "loox_reviews_loox_agg_section_yJxUiW"
       ],
+      "custom_css": [
+        "/* Fond blanc uniquement pour la section */& {background: #ffffff;}",
+        "/* Cartes avis */& .loox-review,& .loox-review-card,& .loox-review-box {background: #ffffff !important; border-radius: 14px; box-shadow: 0 6px 18px rgba(0,0,0,0.08);}",
+        "/* Texte lisible */& .loox-review,& .loox-review * {color: #111111 !important;}",
+        "/* Supprime tout fond sombre hérité */& .loox-widget,& .loox-reviews-wrapper {background: transparent !important;}"
+      ],
       "settings": {
         "display_id": false,
         "include_margins": true
