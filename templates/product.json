@@ -170,7 +170,7 @@
         "hide_variants": false,
         "variant_image_filtering": "none",
         "image_zoom": "none",
-        "arrows_color_scheme": "inverse",
+        "arrows_color_scheme": "background-1",
         "transparent_arrows": false,
         "dots_color_scheme": "inverse",
         "video_player": "play_btn",
