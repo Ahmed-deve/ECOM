@@ -377,6 +377,7 @@
         "column_QYqdXk",
         "column_d9WAxy"
       ],
+      "disabled": true,
       "name": "Facebook testimonials",
       "settings": {
         "display_id": false,
