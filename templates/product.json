@@ -701,6 +701,7 @@
           "type": "column",
           "settings": {
             "post_author": "Ryan",
+            "post_author_avatar": "shopify://shop_images/image8.png",
             "post_author_verified": false,
             "post_time": "Il y a 2 jours",
             "post_text": "<h6>Facile à utiliser et vraiment fiable. En tant que personne qui n'entend pas les alarmes classiques, c'est une aide énorme pour moi. Je me réveille enfin à l'heure sans stress, et je ne dérange personne.</h6>",
