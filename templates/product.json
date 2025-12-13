@@ -141,6 +141,38 @@
             "margin_bottom": 24
           }
         },
+        "payment_badges_MYAtA3": {
+          "type": "payment_badges",
+          "settings": {
+            "enabled_payment_types": "",
+            "margin_top": 15,
+            "margin_bottom": 15
+          }
+        },
+        "icon_with_text_g96Qgw": {
+          "type": "icon_with_text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_color": "accent-1",
+            "desktop_icon_size": 48,
+            "desktop_spacing": 12,
+            "desktop_text_size": 18,
+            "mobile_icon_size": 40,
+            "mobile_spacing": 10,
+            "mobile_text_size": 14,
+            "icon_1": "favorite",
+            "icon_1_fill": false,
+            "heading_1": "Heading",
+            "icon_2": "undo",
+            "icon_2_fill": false,
+            "heading_2": "Heading",
+            "icon_3": "local_shipping",
+            "icon_3_fill": false,
+            "heading_3": "Heading",
+            "margin_top": 24,
+            "margin_bottom": 24
+          }
+        },
         "custom_liquid_yRiQF8": {
           "type": "custom_liquid",
           "settings": {
@@ -154,6 +186,8 @@
         "description_XpzNBP",
         "quantity_selector_TawXhB",
         "buy_buttons_R3EnBm",
+        "payment_badges_MYAtA3",
+        "icon_with_text_g96Qgw",
         "custom_liquid_yRiQF8"
       ],
       "name": "t:sections.featured-product.presets.name",
@@ -206,74 +240,275 @@
         "mobile_slides_inner_width": 100,
         "trust_badge_position": "top-right",
         "trust_badge_size": "medium",
-        "mobile_padding_top": 20,
-        "mobile_padding_bottom": 20,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": 0,
         "desktop_padding_top": 36,
         "desktop_padding_bottom": 36
       }
     },
-    "image_with_text_yyBpaW": {
-      "type": "image-with-text",
+    "collapsible_content_WX8a9w": {
+      "type": "collapsible-content",
       "blocks": {
-        "text_AeGhRN": {
-          "type": "text",
+        "collapsible_row_d98UWL": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<p><strong>Puissant pour vous, invisible pour les autres.</strong></p><p>Ne dépendez plus de vos oreilles ni de vos proches pour vous lever. Ce bracelet délivre des vibrations <strong>3x plus intenses</strong> qu'une montre connectée pour garantir votre réveil physiquement.</p><ul><li><strong>Fiabilité Totale :</strong> Vous ne l'entendez pas, vous le <em>ressentez</em>.</li><li><strong>Autonomie Retrouvée :</strong> Fini le stress de rater l'heure ou de devoir être réveillé par quelqu'un d'autre.</li><li><strong>Silence Absolu :</strong> Aucune nuisance pour votre partenaire.</li></ul>",
-            "text_style": "body"
+            "heading": "Est-ce vraiment efficace pour les personnes sourdes ou malentendantes ?",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "<p>Absolument. C'est notre cœur de métier. Contrairement aux réveils sonores que le cerveau peut ignorer, la stimulation tactile est beaucoup plus difficile à \"filtrer\". Nos vibrations sont calibrées pour être assez puissantes pour vous tirer du sommeil lourd, sans être douloureuses.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Kq7DWz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quelle est l'autonomie de la batterie ?",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "<p>Le bracelet est conçu pour durer. Une seule charge permet de tenir plus de 14 jours.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_i89PFz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le bracelet convient-il à toutes les tailles de poignet ?",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "<p>Oui, le bracelet est ajustable et convient aussi bien aux poignets fins qu'aux poignets plus larges.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jpePk9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si cela ne fonctionne pas sur moi ?",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "<p>Nous sommes convaincus de l'efficacité de notre produit. Cependant, si vous n'êtes pas satisfait, vous disposez de <strong>100 nuits d'essai</strong> pour nous le retourner et être remboursé intégralement. Vous pouvez l'essayer sans risque.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "text_AeGhRN"
+        "collapsible_row_d98UWL",
+        "collapsible_row_Kq7DWz",
+        "collapsible_row_i89PFz",
+        "collapsible_row_jpePk9"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "video": "shopify://files/videos/0a4acb0d57294360a90023f45de428fc.HD-720p-4.5Mbps-59886218.mp4",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
+        "caption": "",
+        "title": "",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
         "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": false,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2e2a39",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "video_muted_autoplay": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "row_heading_size": "medium",
+        "collapse_icon": "carret",
+        "display_top_border": true,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
         "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
+        "custom_colors_text": "#2e2a39",
+        "custom_contaner_colors_background": "#ffffff",
+        "custom_container_gradient_background": "",
+        "custom_contaner_colors_text": "#2e2a39"
+      }
+    },
+    "multicolumn_3Y6cmy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_7zMeBC": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/fit sleep qui se reveil trql.mp4",
+            "muted_autoplay": true,
+            "title": "Le concept : Remplacer l'ouïe par le toucher.",
+            "text": "<p>Pour beaucoup, un réveil sonore est inutile ou source de stress. Rise Band contourne le problème en s'adressant directement à votre corps. Ce bracelet émet des <strong>impulsions vibrantes calibrées</strong> pour interrompre le sommeil, même sans aucun bruit. C'est la garantie de se réveiller de manière autonome, en ressentant l'heure plutôt qu'en l'écoutant.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_7zMeBC"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Un réveil doux mais sûr",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "bg-overlay",
+        "cards_corner_radius": 20,
+        "stretch_cards": false,
+        "stretched_cards_content_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "media_position": "top",
+        "column_alignment": "center",
+        "desktop_heading_size": 24,
+        "mobile_heading_size": 22,
+        "desktop_text_size": 16,
+        "mobile_text_size": 15,
+        "desktop_text_top_margin": 10,
+        "mobile_text_top_margin": 10,
+        "desktop_container_padding_y": 24,
+        "desktop_container_padding_x": 24,
+        "mobile_container_padding_y": 24,
+        "mobile_container_padding_x": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "sides",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
         "custom_colors_solid_button_background": "#dd1d1d",
         "custom_colors_solid_button_text": "#ffffff",
         "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_heading": "#222126",
+        "custom_cards_colors_text": "#2E2A39"
+      }
+    },
+    "multicolumn_RQBRKg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qcTL4h": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/0a4acb0d57294360a90023f45de428fc.HD-720p-4.5Mbps-59886218.mp4",
+            "muted_autoplay": true,
+            "title": "Impossible à ignorer",
+            "text": "<p>Ce bracelet délivre des vibrations <strong>3x plus intenses</strong> qu'une montre connectée pour garantir votre réveil physiquement. <br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TgjH4D": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e8ab528d-eb85-449f-845b-100073962307_2_1.png",
+            "muted_autoplay": true,
+            "title": "Le réveil qui ne réveille que vous",
+            "text": "<p>Grâce à ses vibrations puissantes concentrées à votre poignet, vous êtes le seul à être réveillé. Votre conjoint ou votre bébé continue de dormir paisiblement.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_qcTL4h",
+        "column_TgjH4D"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Puissant mais silencieux",
+        "title_highlight_color": "#6D388B",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "bg-overlay",
+        "cards_corner_radius": 20,
+        "stretch_cards": false,
+        "stretched_cards_content_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "media_position": "top",
+        "column_alignment": "center",
+        "desktop_heading_size": 24,
+        "mobile_heading_size": 22,
+        "desktop_text_size": 16,
+        "mobile_text_size": 15,
+        "desktop_text_top_margin": 10,
+        "mobile_text_top_margin": 10,
+        "desktop_container_padding_y": 24,
+        "desktop_container_padding_x": 24,
+        "mobile_container_padding_y": 24,
+        "mobile_container_padding_x": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 6,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": true,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "under",
+        "desktop_arrows_position": "hidden",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": true,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "sides",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "custom_colors_background": "#FFFFFF",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2E2A39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_cards_colors_background": "#F3F3F3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_heading": "#222126",
+        "custom_cards_colors_text": "#2E2A39"
       }
     },
     "image_with_text_PzDkFx": {
       "type": "image-with-text",
-      "blocks": {
-        "text_XFrpDD": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rise Band offre une puissance de niveau shaker dans un portable. Contrairement aux montres intelligentes, qui utilisent des moteurs de notification faibles, elle ne fait que vous réveiller. Contrairement aux shakers de lit, il ne secoue pas tout votre lit.<br/><br/></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_XFrpDD"
-      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "display_id": false,
@@ -297,7 +532,7 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": 16,
         "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
+        "desktop_padding_bottom": 0,
         "custom_colors_background": "#2e2a39",
         "custom_gradient_background": "",
         "custom_colors_text": "#ffffff",
@@ -308,9 +543,114 @@
         "custom_section_gradient_background": ""
       }
     },
+    "multicolumn_cpFUJP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_9NdMHG": {
+          "type": "column",
+          "settings": {
+            "video": "shopify://files/videos/5c2b429a8a584077ba2032b79129516d.HD-720p-4.5Mbps-59886328.mp4",
+            "muted_autoplay": true,
+            "title": "",
+            "text": "<p><strong>Vous mettez le bracelet avant d'aller vous coucher et réglez en quelques secondes le réveil. Lorsqu'il sonne, vous l'éteignez et reposez le bracelet sur votre table de chevet.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_9NdMHG"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "display_id": false,
+        "visibility": "always-display",
+        "title": "Comment ça marche ?",
+        "title_highlight_color": "#6d388b",
+        "heading_size": "h1",
+        "button_label": "",
+        "button_link": "",
+        "atc_button_label": "",
+        "atc_product": "",
+        "atc_skip_cart": false,
+        "color_scheme": "background-1",
+        "cards_color_scheme": "bg-overlay",
+        "cards_corner_radius": 20,
+        "stretch_cards": false,
+        "stretched_cards_content_alignment": "center",
+        "image_width": "full",
+        "image_ratio": "square",
+        "media_position": "top",
+        "column_alignment": "center",
+        "desktop_heading_size": 24,
+        "mobile_heading_size": 22,
+        "desktop_text_size": 16,
+        "mobile_text_size": 15,
+        "desktop_text_top_margin": 10,
+        "mobile_text_top_margin": 10,
+        "desktop_container_padding_y": 24,
+        "desktop_container_padding_x": 24,
+        "mobile_container_padding_y": 24,
+        "mobile_container_padding_x": 24,
+        "type": "slide",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "arrows_color_scheme": "inverse",
+        "transparent_arrows": false,
+        "dots_color_scheme": "inverse",
+        "desktop_full_page": false,
+        "columns_desktop": 3,
+        "slider_desktop": false,
+        "per_move_desktop": 1,
+        "desktop_spacing": 40,
+        "desktop_side_padding": 0,
+        "desktop_padding_calc": true,
+        "desktop_adaptive_height": false,
+        "desktop_dots_position": "hidden",
+        "desktop_arrows_position": "hidden",
+        "columns_mobile": "1",
+        "slider_mobile": true,
+        "enable_mobile_preview": false,
+        "mobile_adaptive_height": false,
+        "mobile_dots_position": "hidden",
+        "mobile_arrows_position": "hidden",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "custom_colors_background": "#ffffff",
+        "custom_gradient_background": "",
+        "custom_colors_text": "#2e2a39",
+        "custom_colors_solid_button_background": "#dd1d1d",
+        "custom_colors_solid_button_text": "#ffffff",
+        "custom_colors_outline_button": "#dd1d1d",
+        "custom_cards_colors_background": "#f3f3f3",
+        "custom_cards_gradient_background": "",
+        "custom_cards_colors_heading": "#222126",
+        "custom_cards_colors_text": "#2e2a39"
+      }
+    },
     "facebook_testimonials_XDkYie": {
       "type": "facebook-testimonials",
       "blocks": {
+        "column_ei3PR7": {
+          "type": "column",
+          "settings": {
+            "post_author": "Author name",
+            "post_author_verified": false,
+            "post_time": "2h ago",
+            "post_text": "<p>Shrine theme has made a huge impact on my store's CVR!</p>",
+            "post_reactions": "like, love, care",
+            "post_reactions_text": "1.1k",
+            "post_comments_text": "26 Comments",
+            "comment_1_author": "Comment author",
+            "comment_1_author_verified": false,
+            "comment_1_time": "2h ago",
+            "comment_1_text": "",
+            "comment_2_author": "Comment author",
+            "comment_2_author_verified": false,
+            "comment_2_time": "3h ago",
+            "comment_2_text": ""
+          }
+        },
         "column_NgwPDg": {
           "type": "column",
           "settings": {
@@ -373,16 +713,16 @@
         }
       },
       "block_order": [
+        "column_ei3PR7",
         "column_NgwPDg",
         "column_QYqdXk",
         "column_d9WAxy"
       ],
-      "disabled": true,
       "name": "Facebook testimonials",
       "settings": {
         "display_id": false,
         "visibility": "always-display",
-        "title": "Facebook testimonials",
+        "title": "Témoignages Facebook",
         "title_highlight_color": "#6d388b",
         "heading_size": "h1",
         "text": "",
@@ -425,130 +765,66 @@
         "custom_colors_text": "#2e2a39"
       }
     },
-    "image_with_text_bdwNc9": {
-      "type": "image-with-text",
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "image": "shopify://shop_images/e8ab528d-eb85-449f-845b-100073962307_2_1.png",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": false,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": true,
-        "mobile_direction": "normal",
-        "mobile_image_quanlity": "1",
-        "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
-      }
-    },
-    "image_with_text_n3VXyc": {
-      "type": "image-with-text",
-      "blocks": {
-        "text_LpWbqz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Comment ça marche<br/>Vous mettez le bracelet avant de vous coucher et réglez facilement le réveil. Lorsque le réveil sonne, vous l'éteignez et remettez le bracelet sur votre table de nuit.<br/><br/></p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_LpWbqz"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "display_id": false,
-        "visibility": "always-display",
-        "video": "shopify://files/videos/5c2b429a8a584077ba2032b79129516d.HD-720p-4.5Mbps-59886328.mp4",
-        "video_autoplay": true,
-        "video_loop": true,
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "section_color_scheme": "background-1",
-        "full_desktop_width": false,
-        "content_layout": "no-overlap",
-        "desktop_media_width": 50,
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_full_media_width": false,
-        "mobile_direction": "reverse",
-        "mobile_image_quanlity": "2",
-        "mobile_content_alignment": "left",
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 16,
-        "desktop_padding_top": 36,
-        "desktop_padding_bottom": 36,
-        "custom_colors_background": "#2e2a39",
-        "custom_gradient_background": "",
-        "custom_colors_text": "#ffffff",
-        "custom_colors_solid_button_background": "#dd1d1d",
-        "custom_colors_solid_button_text": "#ffffff",
-        "custom_colors_outline_button": "#dd1d1d",
-        "custom_section_colors_background": "#ffffff",
-        "custom_section_gradient_background": ""
-      }
-    },
     "collapsible_content_hLQQTK": {
       "type": "collapsible-content",
       "blocks": {
         "collapsible_row_bxBxWa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Je dors toujours grâce à mes alarmes. Est-ce que cela résoudra mon problème ?",
+            "heading": "Est-ce vraiment efficace pour les personnes sourdes ou malentendantes ?",
             "icon": "check_box",
             "filled_icon": false,
-            "row_content": "<p>Oui! Cette alarme est conçue pour les dormeurs profonds et tous ceux qui ont du mal à se réveiller avec d'autres alarmes ou lumières. Il utilise une forte vibration pour réveiller les dormeurs les plus profonds. Des centaines de clients qui dormaient auparavant même avec des shakers se réveillent désormais de manière fiable avec Rise Band.<br/><br/></p>",
+            "row_content": "<p>Absolument. C'est notre cœur de métier. Contrairement aux réveils sonores que le cerveau peut ignorer, la stimulation tactile est beaucoup plus difficile à \"filtrer\". Nos vibrations sont calibrées pour être assez puissantes pour vous tirer du sommeil lourd, sans être douloureuses.</p>",
             "page": ""
           }
         },
         "collapsible_row_cgmHjN": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "En quoi est-ce différent de la vibration de mon Apple Watch ou de mon téléphone ?",
             "icon": "check_box",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>La différence réside dans la puissance du moteur. Les montres connectées sont faites pour des notifications discrètes (SMS, emails). Notre bracelet est équipé d'un moteur dédié au réveil, délivrant des vibrations jusqu'à 3 fois plus intenses qu'une montre standard.</p>",
             "page": ""
           }
         },
         "collapsible_row_izWPEj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Est-ce gênant de dormir avec un bracelet au poignet ?",
             "icon": "check_box",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>Nous avons conçu le bracelet pour qu'il soit le plus discret possible. Le matériau est souple, respirant et léger. Après quelques nuits, la plupart de nos utilisateurs oublient complètement qu'ils le portent.<br/><br/></p>",
             "page": ""
           }
         },
         "collapsible_row_gqYt9d": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Quelle est l'autonomie de la batterie ?",
             "icon": "check_box",
             "filled_icon": false,
-            "row_content": "",
+            "row_content": "<p>Le bracelet est conçu pour durer. Une seule charge permet de tenir plus de 14 jours.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hgaCPL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Le bracelet convient-il à toutes les tailles de poignet ?",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "<p>Oui, le bracelet est ajustable et convient aussi bien aux poignets fins qu'aux poignets plus larges.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_axPhDd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Et si cela ne fonctionne pas sur moi ?",
+            "icon": "check_box",
+            "filled_icon": false,
+            "row_content": "<p>Nous sommes convaincus de l'efficacité de notre produit. Cependant, si vous n'êtes pas satisfait, vous disposez de <strong>100 nuits d'essai</strong> pour nous le retourner et être remboursé intégralement. Vous pouvez l'essayer sans risque.</p>",
             "page": ""
           }
         }
@@ -557,7 +833,9 @@
         "collapsible_row_bxBxWa",
         "collapsible_row_cgmHjN",
         "collapsible_row_izWPEj",
-        "collapsible_row_gqYt9d"
+        "collapsible_row_gqYt9d",
+        "collapsible_row_hgaCPL",
+        "collapsible_row_axPhDd"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -1008,11 +1286,12 @@
   },
   "order": [
     "featured_product_fMPB7M",
-    "image_with_text_yyBpaW",
+    "collapsible_content_WX8a9w",
+    "multicolumn_3Y6cmy",
+    "multicolumn_RQBRKg",
     "image_with_text_PzDkFx",
+    "multicolumn_cpFUJP",
     "facebook_testimonials_XDkYie",
-    "image_with_text_bdwNc9",
-    "image_with_text_n3VXyc",
     "collapsible_content_hLQQTK",
     "176540295115a1a20e",
     "main",
