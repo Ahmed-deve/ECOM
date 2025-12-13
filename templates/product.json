@@ -872,18 +872,20 @@
     "176540295115a1a20e": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_review_widget_dDGXUP": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "loox_reviews_loox_dynamic_section_3QPpGC": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "review_data": "real_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": false
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_review_widget_dDGXUP"
+        "loox_reviews_loox_dynamic_section_3QPpGC"
       ],
       "settings": {
         "display_id": false,
