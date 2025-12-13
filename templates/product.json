@@ -637,13 +637,14 @@
         "column_ei3PR7": {
           "type": "column",
           "settings": {
-            "post_author": "Author name",
+            "post_author": "Damien",
+            "post_author_avatar": "shopify://shop_images/pexels-rdne-6517175.jpg",
             "post_author_verified": false,
-            "post_time": "2h ago",
+            "post_time": "Il y a 5 jours",
             "post_text": "<h6>J'ai tout essayé : Apple Watch, Fitbit, tout. Et je dormais à travers tous ces réveils. J'ai acheté Lingone il y a six mois et je n'ai plus jamais fait de grasse matinée. Les vibrations me réveillent vraiment sans être trop brutales, et le meilleur ? Je peux voyager avec ! </h6>",
             "post_reactions": "like, love, care",
-            "post_reactions_text": "1.1K",
-            "post_comments_text": "26 Comments",
+            "post_reactions_text": "356",
+            "post_comments_text": "45 Commentaires",
             "comment_1_author": "Comment author",
             "comment_1_author_verified": false,
             "comment_1_time": "2h ago",
